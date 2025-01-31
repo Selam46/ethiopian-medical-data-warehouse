@@ -1,0 +1,67 @@
+# Environment variables
+.env
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Data files
+data/raw/*
+data/cleaned/*
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# Image files
+images/*
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Log files
+logs/*
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Telegram session files
+*.session
+*.session-journal
+
+# DBT
+dbt_packages/
+dbt_modules/
+target/
+logs/
+profiles.yml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
